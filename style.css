@@ -39,8 +39,13 @@ header {
 }
 
 .product {
-    height: 350px;
-    background-color: coral;
+    height: 200px;
+    background-color: rgb(95, 133, 236);
+    border-radius: 70px;
+    box-shadow: 10px 5px rgb(116, 158, 248);
+    text-align: center;
+    border-style: solid;
+    font-size: 20px;
 }
 
 footer {
