@@ -1,0 +1,13 @@
+.container{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+button{
+    background-color: bisque;
+    border-radius: 5px;
+}
