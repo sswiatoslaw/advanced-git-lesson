@@ -27,6 +27,27 @@ header {
     background-color: grey;
 }
 
+.new-product-text {
+    display: grid;
+    justify-content: center;
+}
+
+.new-products {
+    display: grid;
+    justify-content: center;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 250px);
+}
+
+.new-product {
+    background-color: blueviolet;
+    height: 300px;
+}
+
+.new-product:hover {
+    background-color: rgb(148, 71, 221);
+}
+
 .products {
     display: grid;
     grid-gap: 20px;
@@ -55,6 +76,12 @@ footer {
     display: none;
 }
 
+@media screen and (max-width: 767px) {
+    .products {
+        grid-template-columns: repeat(2, 250px);
+    }
+}
+
 @media screen and (max-width: 426px) {
     .products {
         grid-template-columns: repeat(1, 250px);
@@ -68,10 +95,7 @@ footer {
     .menu {
         display: none;
     }
-}
-
-@media screen and (max-width: 767px) {
-    .products {
-        grid-template-columns: repeat(2, 250px);
+    .new-products {
+        grid-template-columns: repeat(1, 250px);
     }
 }
