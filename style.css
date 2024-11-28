@@ -30,6 +30,28 @@ header {
     background-color: grey;
 }
 
+.black-friday{
+    background-color: black;
+    text-align: center;
+}
+
+.black-friday-title{
+    color: aliceblue;
+}
+
+.discounts{
+    color: aliceblue;
+}
+
+.button{
+    color: aliceblue;
+}
+
+.button:hover{
+    color: brown;
+    border: 3px;
+    border-color: aliceblue;
+}
 .products {
     display: grid;
    
@@ -78,5 +100,8 @@ footer {
 @media screen and (max-width: 767px) {
     .products {
         grid-template-columns: repeat(2, 250px);
+    }
+    .black-friday{
+        display: column;
     }
 }
